@@ -1,4 +1,10 @@
 When you are in the middle of something, you learn that there are upstream changes that are possibly 
 relevant to what you are doing. When your local changes do not conflict with the changes in the upstream, 
 a simple git pull will let you move forward.
+$ git pull
+ ...
+file foobar not up to date, cannot merge.
+$ git stash
+$ git pull
+$ git stash pop
 
